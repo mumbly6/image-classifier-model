@@ -1,0 +1,4 @@
+fastai
+streamlit
+torch
+torchvision
