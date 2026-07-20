@@ -1,5 +1,4 @@
 fastai
-fasttransform
 plum-dispatch==1.7.4
 streamlit
 torch
