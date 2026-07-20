@@ -1,7 +1,7 @@
-fastai==2.7.18
+fastai
 fasttransform
 plum-dispatch==1.7.4
 streamlit
-torch==2.4.1
-torchvision==0.19.1
+torch
+torchvision
 Pillow
