@@ -14,6 +14,14 @@ class names to compatible stubs or current equivalents.
 """
 
 import sys
+
+# Streamlit Cloud caches the venv. If fasttransform was previously installed,
+# pip leaves it there even after removing it from requirements.txt.
+# We MUST block it from being imported, otherwise fastai will try to load it
+# and crash with an IndexError.
+sys.modules['fasttransform'] = None
+sys.modules['fasttransform.transform'] = None
+
 import io
 import pickle
 import pathlib
