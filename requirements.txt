@@ -2,3 +2,4 @@ fastai
 streamlit
 torch
 torchvision
+Pillow
